@@ -1,0 +1,9 @@
+audit_id,audit_date,observer_id,time_window_start,time_window_end,items_in,items_out,variance,associate_on_duty,shift,notes
+FRA001,2024-04-15,A004,15:00,16:00,8,7,-1,A025,fitting_room,Associate counted items correctly.
+FRA001,2024-04-15,A004,10:00,11:00,8,8,0,A025,fitting_room,No issues observed.
+FRA001,2024-04-15,A004,13:00,14:00,6,6,0,A039,fitting_room,No issues observed.
+FRA001,2024-04-15,A004,17:00,18:00,6,6,0,A015,fitting_room,Standard procedure followed.
+FRA002,2024-10-08,A004,11:00,12:00,7,6,-1,A022,fitting_room,Items in count not confirmed with customer verbally.
+FRA002,2024-10-08,A004,13:00,14:00,6,5,-1,A022,fitting_room,Associate occupied with other customer during room entry.
+FRA002,2024-10-08,A004,11:00,12:00,6,4,-2,A022,fitting_room,Items in count not confirmed with customer verbally.
+FRA002,2024-10-08,A004,11:00,12:00,7,6,-1,A022,fitting_room,Items in count not confirmed with customer verbally.

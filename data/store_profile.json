@@ -1,0 +1,318 @@
+{
+  "store_id": "store_001",
+  "name": "TJX Retail \u2014 Downtown Location",
+  "type": "street",
+  "size_sqft": 28000,
+  "floors": 1,
+  "entrances": [
+    "main_entrance"
+  ],
+  "registers": {
+    "total": 6,
+    "typically_active": 3,
+    "ids": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06"
+    ],
+    "active_ids": [
+      "R01",
+      "R02",
+      "R03"
+    ],
+    "access_note": "Associates sign in with associate ID. No-sale button opens drawer. No physical register key. Front end coordinator oversees register access."
+  },
+  "key_access_chain": {
+    "note": "Front end coordinator holds master keys. All coordinator keys are obtained through front end coordinator.",
+    "front_end_coord": "A006",
+    "beauty_coord": "A001",
+    "locked_cases": [
+      "jewelry_case",
+      "perfume_case"
+    ],
+    "key_rules": {
+      "jewelry_shift_present": "Beauty coordinator always has key.",
+      "no_jewelry_non_apparel_present": "Non-apparel associate takes jewelry shift and has key.",
+      "both_present_coord": "Non-apparel coordinator also gets key.",
+      "both_present_non_coord": "Non-apparel associate does NOT get key."
+    }
+  },
+  "shift_definitions": {
+    "womens": [
+      "womens",
+      "lingerie"
+    ],
+    "mens_and_kids": [
+      "mens",
+      "kids"
+    ],
+    "home": [
+      "home"
+    ],
+    "returns": [
+      "register"
+    ],
+    "jewelry": [
+      "accessories",
+      "travel",
+      "purses",
+      "beauty"
+    ],
+    "non_apparel": [
+      "beauty",
+      "travel",
+      "accessories",
+      "purses"
+    ],
+    "markdowns": [
+      "womens",
+      "mens",
+      "kids",
+      "home",
+      "beauty",
+      "accessories",
+      "purses",
+      "lingerie",
+      "shoes",
+      "travel",
+      "tech_gifts"
+    ],
+    "fitting_room": [
+      "fitting_room"
+    ],
+    "backroom": [
+      "backroom"
+    ]
+  },
+  "layout_notes": "Main entrance slightly left of center. Register and queue immediately inside entrance. Travel and purses to the left. Accessories and beauty slightly down on the left. Womens clothing center. Mens and kids far right. Backroom between home and kids at rear.",
+  "zones": {
+    "accessories": {
+      "risk_level": "high",
+      "departments": [
+        18,
+        19
+      ],
+      "near_entrance": true,
+      "shift": "jewelry"
+    },
+    "beauty": {
+      "risk_level": "high",
+      "departments": [
+        73,
+        87,
+        88,
+        89
+      ],
+      "near_entrance": true,
+      "shift": "non_apparel",
+      "locked_case": "perfume_case"
+    },
+    "kids": {
+      "risk_level": "high",
+      "departments": [
+        40,
+        42,
+        45,
+        70,
+        71,
+        72
+      ],
+      "near_entrance": false,
+      "shift": "mens_and_kids"
+    },
+    "womens": {
+      "risk_level": "medium",
+      "departments": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        15,
+        16,
+        17,
+        30,
+        35,
+        38,
+        66
+      ],
+      "near_entrance": false,
+      "shift": "womens"
+    },
+    "mens": {
+      "risk_level": "medium",
+      "departments": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        63,
+        64,
+        65
+      ],
+      "near_entrance": false,
+      "shift": "mens_and_kids"
+    },
+    "purses": {
+      "risk_level": "medium",
+      "departments": [
+        19
+      ],
+      "near_entrance": true,
+      "shift": "jewelry",
+      "security": "alarmed_displays",
+      "locked_case": "jewelry_case"
+    },
+    "lingerie": {
+      "risk_level": "medium",
+      "departments": [
+        50,
+        53,
+        55
+      ],
+      "near_entrance": false,
+      "shift": "womens"
+    },
+    "tech_gifts": {
+      "risk_level": "medium",
+      "departments": [
+        59
+      ],
+      "near_entrance": false,
+      "shift": "mens_and_kids"
+    },
+    "register": {
+      "risk_level": "medium",
+      "departments": [],
+      "near_entrance": true,
+      "shift": "returns"
+    },
+    "shoes": {
+      "risk_level": "low",
+      "departments": [
+        25,
+        27
+      ],
+      "near_entrance": false,
+      "shift": "jewelry"
+    },
+    "home": {
+      "risk_level": "low",
+      "departments": [
+        60,
+        61,
+        62,
+        67,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "near_entrance": false,
+      "shift": "home"
+    },
+    "travel": {
+      "risk_level": "low",
+      "departments": [
+        74
+      ],
+      "near_entrance": true,
+      "shift": "jewelry"
+    },
+    "backroom": {
+      "risk_level": "low",
+      "departments": [],
+      "near_entrance": false,
+      "shift": "backroom",
+      "notes": "Between home and kids at rear. Separate physical space."
+    },
+    "fitting_room": {
+      "risk_level": "medium",
+      "departments": [],
+      "near_entrance": false,
+      "shift": "fitting_room",
+      "notes": "Single fitting room. Monitored via twice-yearly camera audit."
+    }
+  },
+  "coordinators": {
+    "A001": {
+      "title": "Beauty Coordinator",
+      "shift": "jewelry",
+      "zones": [
+        "accessories",
+        "travel",
+        "purses",
+        "beauty",
+        "shoes",
+        "lingerie"
+      ],
+      "key_access": [
+        "jewelry_case",
+        "perfume_case"
+      ]
+    },
+    "A002": {
+      "title": "Home Coordinator",
+      "shift": "home",
+      "zones": [
+        "home"
+      ],
+      "key_access": []
+    },
+    "A003": {
+      "title": "Mens & Kids Coordinator",
+      "shift": "mens_and_kids",
+      "zones": [
+        "mens",
+        "kids"
+      ],
+      "key_access": []
+    },
+    "A004": {
+      "title": "Womens Coordinator",
+      "shift": "womens",
+      "zones": [
+        "womens",
+        "lingerie"
+      ],
+      "key_access": []
+    },
+    "A005": {
+      "title": "Backroom Coordinator",
+      "shift": "backroom",
+      "zones": [
+        "backroom"
+      ],
+      "key_access": []
+    },
+    "A006": {
+      "title": "Front End Coordinator",
+      "shift": "returns",
+      "zones": [
+        "register"
+      ],
+      "key_access": [
+        "master_key",
+        "register_safe",
+        "returns_desk"
+      ]
+    }
+  },
+  "lp_notes": "Street location. Elevated ORC activity in accessories/beauty Q1-Q2. Back-to-school elevates kids risk. Key access chain through front end coordinator is critical investigative context for locked-case incidents.",
+  "fitting_rooms": {
+    "count": 1,
+    "monitoring": "periodic_camera_audit",
+    "audit_frequency": "twice_yearly"
+  }
+}
