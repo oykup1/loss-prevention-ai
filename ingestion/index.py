@@ -75,16 +75,12 @@ def save_index(index, metadata, name):
     with open(meta_path, "w") as f:
         json.dump(metadata, f, indent=2)
     
-    print(f"  ✓ Saved {name}.faiss ({index.ntotal} vectors)")
-    print(f"  ✓ Saved {name}_meta.json ({len(metadata)} entries)")
+
 
 
 def build_incidents_index():
-    print("\nBuilding incidents index...")
     chunks  = load_incidents(os.path.join(DATA_DIR, "incidents.jsonl"))
-    print(f"  Loaded {len(chunks)} incident chunks")
     
-    print("  Embedding chunks via Vertex AI...")
     vectors = embed_chunks(chunks, task_type="RETRIEVAL_DOCUMENT")
     
     index, metadata = build_index(chunks, vectors)
@@ -92,11 +88,8 @@ def build_incidents_index():
 
 
 def build_crime_index():
-    print("\nBuilding crime reports index...")
     chunks  = load_crime_reports(os.path.join(DATA_DIR, "crime_reports"))
-    print(f"  Loaded {len(chunks)} crime report chunks")
     
-    print("  Embedding chunks via Vertex AI...")
     vectors = embed_chunks(chunks, task_type="RETRIEVAL_DOCUMENT")
     
     index, metadata = build_index(chunks, vectors)
@@ -105,10 +98,7 @@ def build_crime_index():
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    print("Building FAISS indexes...")
-    print(f"Reading from: {os.path.abspath(DATA_DIR)}")
-    print(f"Saving to:    {os.path.abspath(INDEX_DIR)}")
-    
+
     build_incidents_index()
     build_crime_index()
     

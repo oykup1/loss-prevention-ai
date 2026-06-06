@@ -28,7 +28,7 @@ BATCH_SIZE    = 20     # How many texts to send per API call
 
 def get_client():
     """
-    Creates and returns a Gen AI client connected to Vertex AI.
+    Creates and returns a Gen AI client connected to Gemini Enterpise Agent Platform.
     Uses your gcloud Application Default Credentials.
     """
     os.environ["GOOGLE_CLOUD_PROJECT"]      = "studied-client-412623"

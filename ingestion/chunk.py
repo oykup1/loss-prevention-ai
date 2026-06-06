@@ -41,4 +41,7 @@ def load_crime_reports(folder_path):
         chunks.append({"text": text, "metadata": metadata})
     return chunks
 
-
+if __name__ == "__main__":
+    base = os.path.join(os.path.dirname(__file__), "..", "data")
+    incidents = load_incidents(os.path.join(base, "incidents.jsonl"))
+    crimes    = load_crime_reports(os.path.join(base, "crime_reports"))
