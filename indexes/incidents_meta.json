@@ -1,0 +1,992 @@
+[
+  {
+    "text": "Incident: Subject concealed hair treatment from beauty dept 73 inside jacket pocket while browsing fragrance section. Exited without purchase. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0001",
+      "date": "2024-10-28",
+      "time": "13:04",
+      "zone": "beauty",
+      "zone_alias": "beauty section",
+      "department": 73,
+      "shift": "markdowns",
+      "lp_associate": "A001",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Multiple fragrance missing from beauty end-cap dept 89 after subject spent approx 4 mins in aisle. No transaction found. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0002",
+      "date": "2024-08-25",
+      "time": "16:39",
+      "zone": "beauty",
+      "zone_alias": "beauty aisle",
+      "department": 89,
+      "shift": "non_apparel",
+      "lp_associate": "A005",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject selected belts from accessories display. Concealed in waistband area near fitting room entrance. Proceeded to exit without making payment. Outcome: Subject apprehended at exit. Police notified. Report filed.",
+    "metadata": {
+      "report_id": "INC0003",
+      "date": "2024-05-27",
+      "time": "15:21",
+      "zone": "accessories",
+      "zone_alias": "accessories/jewelry",
+      "department": 18,
+      "shift": "markdowns",
+      "lp_associate": "A006",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Observed subject layering blouse from dept 2 under own clothing in fitting room area. Exited without purchasing. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0004",
+      "date": "2024-07-18",
+      "time": "19:55",
+      "zone": "womens",
+      "zone_alias": "womens",
+      "department": 2,
+      "shift": "markdowns",
+      "lp_associate": "A005",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Two subjects entered accessories area. One engaged associate with questions about dept 19 items while second subject concealed multiple scarves and jewelry in tote bag. Both subjects exited through main entrance quickly. Description: both wearing dark clothing, one with large shoulder bag. Outcome: Subjects fled through main entrance. Police report filed.",
+    "metadata": {
+      "report_id": "INC0005",
+      "date": "2024-03-08",
+      "time": "14:05",
+      "zone": "accessories",
+      "zone_alias": "accessories area",
+      "department": 19,
+      "shift": "jewelry",
+      "lp_associate": "A001",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed acting suspiciously in dept 53 area. Floor associate notified LP. Subject left store before approach. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0006",
+      "date": "2024-04-04",
+      "time": "10:03",
+      "zone": "lingerie",
+      "zone_alias": "lingerie section",
+      "department": 53,
+      "shift": "womens",
+      "lp_associate": "A002",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed acting suspiciously in dept 25 area. Floor associate notified LP. Subject left store before approach. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0007",
+      "date": "2024-03-05",
+      "time": "21:53",
+      "zone": "shoes",
+      "zone_alias": "footwear",
+      "department": 25,
+      "shift": "markdowns",
+      "lp_associate": "A003",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Two subjects distracted associate at accessories counter dept 18 while third individual removed belts from unlocked display case. Outcome: Subject apprehended at exit. Police notified. Report filed.",
+    "metadata": {
+      "report_id": "INC0008",
+      "date": "2024-11-21",
+      "time": "18:01",
+      "zone": "accessories",
+      "zone_alias": "accessories wall",
+      "department": 18,
+      "shift": "non_apparel",
+      "lp_associate": "A005",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject selected high-value coat from dept 8. Removed security tag using unknown tool near rear of store. Exited main entrance. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0009",
+      "date": "2024-03-18",
+      "time": "17:39",
+      "zone": "womens",
+      "zone_alias": "womens clothing",
+      "department": 8,
+      "shift": "womens",
+      "lp_associate": "A004",
+      "incident_type": "other",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject selected high-value cardigan from dept 4. Removed security tag using unknown tool near rear of store. Exited main entrance. Outcome: Subject apprehended at exit. Police notified. Report filed.",
+    "metadata": {
+      "report_id": "INC0010",
+      "date": "2024-03-10",
+      "time": "18:28",
+      "zone": "womens",
+      "zone_alias": "ladies dept",
+      "department": 4,
+      "shift": "womens",
+      "lp_associate": "A005",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed acting suspiciously in dept 55 area. Floor associate notified LP. Subject left store before approach. Outcome: Subject fled before approach. Description recorded for future reference.",
+    "metadata": {
+      "report_id": "INC0011",
+      "date": "2024-10-12",
+      "time": "21:35",
+      "zone": "lingerie",
+      "zone_alias": "lingerie",
+      "department": 55,
+      "shift": "markdowns",
+      "lp_associate": "A003",
+      "incident_type": "other",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Multiple nail kit missing from beauty end-cap dept 89 after subject spent approx 4 mins in aisle. No transaction found. Outcome: Subject fled before approach. Description recorded for future reference.",
+    "metadata": {
+      "report_id": "INC0012",
+      "date": "2024-04-06",
+      "time": "13:28",
+      "zone": "beauty",
+      "zone_alias": "beauty/fragrance",
+      "department": 89,
+      "shift": "markdowns",
+      "lp_associate": "A003",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject placed toy set from childrens dept 71 into stroller basket underneath child. Proceeded to exit without purchasing. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0013",
+      "date": "2024-10-19",
+      "time": "18:20",
+      "zone": "kids",
+      "zone_alias": "childrens",
+      "department": 71,
+      "shift": "mens_and_kids",
+      "lp_associate": "A002",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Alarm activated on handbag display dept 19. Subject attempted to remove security tag from leather tote. Subject fled before apprehension. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0014",
+      "date": "2024-10-10",
+      "time": "21:05",
+      "zone": "purses",
+      "zone_alias": "purses",
+      "department": 19,
+      "shift": "jewelry",
+      "lp_associate": "A006",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject took blouse from womens dept 8 into fitting room. Returned with fewer items than taken in. One item unaccounted for. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0015",
+      "date": "2024-05-05",
+      "time": "11:12",
+      "zone": "womens",
+      "zone_alias": "womens floor",
+      "department": 8,
+      "shift": "markdowns",
+      "lp_associate": "A006",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject concealed perfume from beauty dept 89 inside jacket pocket while browsing fragrance section. Exited without purchase. Outcome: Subject fled before approach. Description recorded for future reference.",
+    "metadata": {
+      "report_id": "INC0016",
+      "date": "2024-01-19",
+      "time": "12:27",
+      "zone": "beauty",
+      "zone_alias": "beauty",
+      "department": 89,
+      "shift": "jewelry",
+      "lp_associate": "A001",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Observed subject layering dress from dept 15 under own clothing in fitting room area. Exited without purchasing. Outcome: Under investigation. Camera footage requested.",
+    "metadata": {
+      "report_id": "INC0017",
+      "date": "2024-08-19",
+      "time": "12:44",
+      "zone": "womens",
+      "zone_alias": "womens section",
+      "department": 15,
+      "shift": "markdowns",
+      "lp_associate": "A006",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject concealed hair treatment from beauty dept 89 inside jacket pocket while browsing fragrance section. Exited without purchase. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0018",
+      "date": "2024-01-28",
+      "time": "14:06",
+      "zone": "beauty",
+      "zone_alias": "beauty dept",
+      "department": 89,
+      "shift": "non_apparel",
+      "lp_associate": "A002",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Observed subject cut security tag from suit jacket in dept 24 using scissors. Concealed item and exited. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0019",
+      "date": "2024-10-26",
+      "time": "13:30",
+      "zone": "mens",
+      "zone_alias": "mens floor",
+      "department": 24,
+      "shift": "markdowns",
+      "lp_associate": "A002",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject concealed skincare set from beauty dept 89 inside jacket pocket while browsing fragrance section. Exited without purchase. Outcome: Under investigation. Camera footage requested.",
+    "metadata": {
+      "report_id": "INC0020",
+      "date": "2024-06-27",
+      "time": "15:44",
+      "zone": "beauty",
+      "zone_alias": "beauty section",
+      "department": 89,
+      "shift": "jewelry",
+      "lp_associate": "A003",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Observed juvenile remove childrens outfit from kids dept 70 and conceal in backpack. Parent present but unaware. Both exited without purchase. Outcome: Subject fled before approach. Description recorded for future reference.",
+    "metadata": {
+      "report_id": "INC0021",
+      "date": "2024-04-02",
+      "time": "17:10",
+      "zone": "kids",
+      "zone_alias": "infant section",
+      "department": 70,
+      "shift": "markdowns",
+      "lp_associate": "A001",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed acting suspiciously in dept 53 area. Floor associate notified LP. Subject left store before approach. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0022",
+      "date": "2024-03-26",
+      "time": "15:41",
+      "zone": "lingerie",
+      "zone_alias": "lingerie section",
+      "department": 53,
+      "shift": "markdowns",
+      "lp_associate": "A002",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed acting suspiciously in dept 50 area. Floor associate notified LP. Subject left store before approach. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0023",
+      "date": "2024-04-08",
+      "time": "21:06",
+      "zone": "lingerie",
+      "zone_alias": "pajamas",
+      "department": 50,
+      "shift": "womens",
+      "lp_associate": "A005",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Observed juvenile remove childrens outfit from kids dept 40 and conceal in backpack. Parent present but unaware. Both exited without purchase. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0024",
+      "date": "2024-08-04",
+      "time": "20:43",
+      "zone": "kids",
+      "zone_alias": "kids section",
+      "department": 40,
+      "shift": "markdowns",
+      "lp_associate": "A004",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject took activewear set from womens dept 15 into fitting room. Returned with fewer items than taken in. One item unaccounted for. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0025",
+      "date": "2024-06-14",
+      "time": "21:53",
+      "zone": "womens",
+      "zone_alias": "womens",
+      "department": 15,
+      "shift": "markdowns",
+      "lp_associate": "A004",
+      "incident_type": "other",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject removed security wrap from nail kit in beauty aisle dept 88. Abandoned wrap behind display. Item not recovered. Outcome: Under investigation. Camera footage requested.",
+    "metadata": {
+      "report_id": "INC0026",
+      "date": "2024-04-26",
+      "time": "10:18",
+      "zone": "beauty",
+      "zone_alias": "beauty section",
+      "department": 88,
+      "shift": "markdowns",
+      "lp_associate": "A002",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject placed books from childrens dept 70 into stroller basket underneath child. Proceeded to exit without purchasing. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0027",
+      "date": "2024-01-04",
+      "time": "18:02",
+      "zone": "kids",
+      "zone_alias": "childrens",
+      "department": 70,
+      "shift": "mens_and_kids",
+      "lp_associate": "A003",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Alarm activated on handbag display dept 19. Subject attempted to remove security tag from designer handbag. Subject fled before apprehension. Outcome: Under investigation. Camera footage requested.",
+    "metadata": {
+      "report_id": "INC0028",
+      "date": "2024-10-14",
+      "time": "13:50",
+      "zone": "purses",
+      "zone_alias": "purse wall",
+      "department": 19,
+      "shift": "non_apparel",
+      "lp_associate": "A006",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject selected earrings from accessories display. Concealed in waistband area near fitting room entrance. Proceeded to exit without making payment. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0029",
+      "date": "2024-11-16",
+      "time": "11:01",
+      "zone": "accessories",
+      "zone_alias": "accessories wall",
+      "department": 19,
+      "shift": "markdowns",
+      "lp_associate": "A002",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed acting suspiciously in dept 59 area. Floor associate notified LP. Subject left store before approach. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0030",
+      "date": "2024-01-17",
+      "time": "13:05",
+      "zone": "tech_gifts",
+      "zone_alias": "tech",
+      "department": 59,
+      "shift": "markdowns",
+      "lp_associate": "A004",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Observed subject layering jeans from dept 7 under own clothing in fitting room area. Exited without purchasing. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0031",
+      "date": "2024-07-12",
+      "time": "11:56",
+      "zone": "womens",
+      "zone_alias": "ladies dept",
+      "department": 7,
+      "shift": "womens",
+      "lp_associate": "A004",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Merchandise items found discarded in dept 81 without tags. Believed to be related to concealment activity. Outcome: Subject fled before approach. Description recorded for future reference.",
+    "metadata": {
+      "report_id": "INC0032",
+      "date": "2024-01-10",
+      "time": "18:39",
+      "zone": "home",
+      "zone_alias": "housewares",
+      "department": 81,
+      "shift": "markdowns",
+      "lp_associate": "A003",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Two subjects distracted associate at accessories counter dept 19 while third individual removed earrings from unlocked display case. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0033",
+      "date": "2024-08-29",
+      "time": "17:04",
+      "zone": "accessories",
+      "zone_alias": "accessories area",
+      "department": 19,
+      "shift": "markdowns",
+      "lp_associate": "A003",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Merchandise items found discarded in dept 59 without tags. Believed to be related to concealment activity. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0034",
+      "date": "2024-05-18",
+      "time": "11:14",
+      "zone": "tech_gifts",
+      "zone_alias": "mens accessories",
+      "department": 59,
+      "shift": "markdowns",
+      "lp_associate": "A005",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Associate reported trousers missing from mens outerwear dept 22 after subject tried on multiple coats and left only one. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0035",
+      "date": "2024-07-18",
+      "time": "18:36",
+      "zone": "mens",
+      "zone_alias": "menswear",
+      "department": 22,
+      "shift": "markdowns",
+      "lp_associate": "A002",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Multiple perfume missing from beauty end-cap dept 87 after subject spent approx 4 mins in aisle. No transaction found. Outcome: Under investigation. Camera footage requested.",
+    "metadata": {
+      "report_id": "INC0036",
+      "date": "2024-07-31",
+      "time": "18:36",
+      "zone": "beauty",
+      "zone_alias": "beauty",
+      "department": 87,
+      "shift": "non_apparel",
+      "lp_associate": "A004",
+      "incident_type": "other",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Observed juvenile remove toy set from kids dept 45 and conceal in backpack. Parent present but unaware. Both exited without purchase. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0037",
+      "date": "2024-03-24",
+      "time": "11:33",
+      "zone": "kids",
+      "zone_alias": "infant section",
+      "department": 45,
+      "shift": "mens_and_kids",
+      "lp_associate": "A005",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Merchandise items found discarded in dept 83 without tags. Believed to be related to concealment activity. Outcome: Subject fled before approach. Description recorded for future reference.",
+    "metadata": {
+      "report_id": "INC0038",
+      "date": "2024-03-27",
+      "time": "13:34",
+      "zone": "home",
+      "zone_alias": "home dept",
+      "department": 83,
+      "shift": "home",
+      "lp_associate": "A004",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Two subjects distracted associate at accessories counter dept 19 while third individual removed scarves from unlocked display case. Outcome: Subject apprehended at exit. Police notified. Report filed.",
+    "metadata": {
+      "report_id": "INC0039",
+      "date": "2024-01-01",
+      "time": "17:26",
+      "zone": "accessories",
+      "zone_alias": "accessories",
+      "department": 19,
+      "shift": "jewelry",
+      "lp_associate": "A003",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed acting suspiciously in dept 74 area. Floor associate notified LP. Subject left store before approach. Outcome: Subject apprehended at exit. Police notified. Report filed.",
+    "metadata": {
+      "report_id": "INC0040",
+      "date": "2024-03-16",
+      "time": "16:17",
+      "zone": "travel",
+      "zone_alias": "travel dept",
+      "department": 74,
+      "shift": "markdowns",
+      "lp_associate": "A003",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject concealed items from accessories area dept 18-19 in reusable shopping bag. Moved quickly through womens section toward main entrance. Did not stop at register. Dark jacket, baseball cap. Second individual waited near entrance. Outcome: Subjects exited before apprehension. Descriptions recorded.",
+    "metadata": {
+      "report_id": "INC0041",
+      "date": "2024-04-19",
+      "time": "15:21",
+      "zone": "accessories",
+      "zone_alias": "accessories wall",
+      "department": 19,
+      "shift": "jewelry",
+      "lp_associate": "A004",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: High-value crossbody bag missing from locked display dept 19. No transaction found. Camera review pending. Associate states display was found unlocked during floor check. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0042",
+      "date": "2024-04-08",
+      "time": "18:27",
+      "zone": "purses",
+      "zone_alias": "purses",
+      "department": 19,
+      "shift": "jewelry",
+      "lp_associate": "A001",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject removed security wrap from perfume in beauty aisle dept 88. Abandoned wrap behind display. Item not recovered. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0043",
+      "date": "2024-10-09",
+      "time": "13:42",
+      "zone": "beauty",
+      "zone_alias": "beauty section",
+      "department": 88,
+      "shift": "jewelry",
+      "lp_associate": "A002",
+      "incident_type": "other",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed acting suspiciously in dept 84 area. Floor associate notified LP. Subject left store before approach. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0044",
+      "date": "2024-03-08",
+      "time": "19:53",
+      "zone": "home",
+      "zone_alias": "home dept",
+      "department": 84,
+      "shift": "markdowns",
+      "lp_associate": "A001",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject took activewear set from womens dept 30 into fitting room. Returned with fewer items than taken in. One item unaccounted for. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0045",
+      "date": "2024-11-03",
+      "time": "18:24",
+      "zone": "womens",
+      "zone_alias": "ladies dept",
+      "department": 30,
+      "shift": "markdowns",
+      "lp_associate": "A002",
+      "incident_type": "other",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed selecting multiple hair accessories from the accessories wall near dept 18. Placed items inside personal bag while facing away from camera. Exited through main entrance without purchasing. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0046",
+      "date": "2024-03-09",
+      "time": "18:38",
+      "zone": "accessories",
+      "zone_alias": "accessories area",
+      "department": 18,
+      "shift": "markdowns",
+      "lp_associate": "A001",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: High-value designer handbag missing from locked display dept 19. No transaction found. Camera review pending. Associate states display was found unlocked during floor check. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0047",
+      "date": "2024-01-09",
+      "time": "13:38",
+      "zone": "purses",
+      "zone_alias": "bag display",
+      "department": 19,
+      "shift": "jewelry",
+      "lp_associate": "A004",
+      "incident_type": "other",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject selected sunglasses from accessories display. Concealed in waistband area near fitting room entrance. Proceeded to exit without making payment. Outcome: Under investigation. Camera footage requested.",
+    "metadata": {
+      "report_id": "INC0048",
+      "date": "2024-09-20",
+      "time": "19:56",
+      "zone": "accessories",
+      "zone_alias": "accessories",
+      "department": 18,
+      "shift": "markdowns",
+      "lp_associate": "A005",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed acting suspiciously in dept 59 area. Floor associate notified LP. Subject left store before approach. Outcome: Under investigation. Camera footage requested.",
+    "metadata": {
+      "report_id": "INC0049",
+      "date": "2024-03-06",
+      "time": "18:17",
+      "zone": "tech_gifts",
+      "zone_alias": "gifts",
+      "department": 59,
+      "shift": "markdowns",
+      "lp_associate": "A003",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject removed tags from infant clothing in infant section dept 45. Dressed child in unpurchased item. Exited through main entrance. Outcome: Under investigation. Camera footage requested.",
+    "metadata": {
+      "report_id": "INC0050",
+      "date": "2024-05-19",
+      "time": "20:50",
+      "zone": "kids",
+      "zone_alias": "childrens",
+      "department": 45,
+      "shift": "mens_and_kids",
+      "lp_associate": "A005",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Alarm activated on handbag display dept 19. Subject attempted to remove security tag from designer handbag. Subject fled before apprehension. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0051",
+      "date": "2024-06-19",
+      "time": "10:13",
+      "zone": "purses",
+      "zone_alias": "handbags",
+      "department": 19,
+      "shift": "non_apparel",
+      "lp_associate": "A004",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Customer reported receiving incorrect change at register. Reviewed transaction log. Discrepancy noted on associate login. Outcome: Subject exited store. No apprehension. Incident documented.",
+    "metadata": {
+      "report_id": "INC0052",
+      "date": "2024-07-20",
+      "time": "20:08",
+      "zone": "register",
+      "zone_alias": "POS",
+      "department": 0,
+      "shift": "returns",
+      "lp_associate": "A006",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Merchandise clothing found discarded in dept 59 without tags. Believed to be related to concealment activity. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0053",
+      "date": "2024-04-30",
+      "time": "15:09",
+      "zone": "tech_gifts",
+      "zone_alias": "tech",
+      "department": 59,
+      "shift": "markdowns",
+      "lp_associate": "A004",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Observed group of two near accessories/jewelry dept 19. Classic distraction technique \u2014 one asked associate to retrieve item from case while second removed items from open display. Exited rapidly toward main entrance. Similar MO to recent area incidents per local crime report. Outcome: Subjects fled through main entrance. Police report filed.",
+    "metadata": {
+      "report_id": "INC0054",
+      "date": "2024-04-05",
+      "time": "16:38",
+      "zone": "accessories",
+      "zone_alias": "accessories wall",
+      "department": 19,
+      "shift": "jewelry",
+      "lp_associate": "A005",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Two subjects distracted associate at accessories counter dept 18 while third individual removed scarves from unlocked display case. Outcome: Subject apprehended at exit. Police notified. Report filed.",
+    "metadata": {
+      "report_id": "INC0055",
+      "date": "2024-02-05",
+      "time": "17:11",
+      "zone": "accessories",
+      "zone_alias": "accessories/jewelry",
+      "department": 18,
+      "shift": "markdowns",
+      "lp_associate": "A006",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Customer reported receiving incorrect change at register. Reviewed transaction log. Discrepancy noted on associate login. Outcome: Subject fled before approach. Description recorded for future reference.",
+    "metadata": {
+      "report_id": "INC0056",
+      "date": "2024-10-02",
+      "time": "19:31",
+      "zone": "register",
+      "zone_alias": "cashier",
+      "department": 0,
+      "shift": "returns",
+      "lp_associate": "A006",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed selecting multiple belts from the accessories wall near dept 18. Placed items inside personal bag while facing away from camera. Exited through main entrance without purchasing. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0057",
+      "date": "2024-09-18",
+      "time": "11:47",
+      "zone": "accessories",
+      "zone_alias": "accessories wall",
+      "department": 18,
+      "shift": "non_apparel",
+      "lp_associate": "A004",
+      "incident_type": "other",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject observed selecting multiple belts from the accessories wall near dept 19. Placed items inside personal bag while facing away from camera. Exited through main entrance without purchasing. Outcome: Subject fled before approach. Description recorded for future reference.",
+    "metadata": {
+      "report_id": "INC0058",
+      "date": "2024-02-04",
+      "time": "12:36",
+      "zone": "accessories",
+      "zone_alias": "accessories/jewelry",
+      "department": 19,
+      "shift": "non_apparel",
+      "lp_associate": "A001",
+      "incident_type": "other",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Observed subject cut security tag from dress shirt in dept 63 using scissors. Concealed item and exited. Outcome: No further action. Insufficient evidence.",
+    "metadata": {
+      "report_id": "INC0059",
+      "date": "2024-03-01",
+      "time": "12:37",
+      "zone": "mens",
+      "zone_alias": "mens dept",
+      "department": 63,
+      "shift": "markdowns",
+      "lp_associate": "A006",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject selected earrings from accessories display. Concealed in waistband area near fitting room entrance. Proceeded to exit without making payment. Outcome: Subject returned merchandise upon LP approach. No further action.",
+    "metadata": {
+      "report_id": "INC0060",
+      "date": "2024-06-07",
+      "time": "18:59",
+      "zone": "accessories",
+      "zone_alias": "accessories",
+      "department": 18,
+      "shift": "non_apparel",
+      "lp_associate": "A002",
+      "incident_type": "distraction",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Alarm activated on designer handbag display dept 19. Subject attempted to remove security tag from high-value item. Subject fled toward main entrance before LP arrival. Item recovered but damaged. Display found unlocked \u2014 unclear how access was obtained. Beauty coordinator scheduled jewelry shift. Key access log under review. Outcome: Subject fled. Item recovered. Access method under investigation. Camera review pending.",
+    "metadata": {
+      "report_id": "INC0061",
+      "date": "2024-05-14",
+      "time": "15:22",
+      "zone": "purses",
+      "zone_alias": "handbags",
+      "department": 19,
+      "shift": "jewelry",
+      "lp_associate": "A005",
+      "incident_type": "alarm_activation",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Observed subject layering coat from dept 2 under own clothing in fitting room area. Exited without purchasing. Outcome: Subject apprehended at exit. Police notified. Report filed.",
+    "metadata": {
+      "report_id": "INC0062",
+      "date": "2024-11-13",
+      "time": "09:01",
+      "zone": "womens",
+      "zone_alias": "womens section",
+      "department": 2,
+      "shift": "markdowns",
+      "lp_associate": "A005",
+      "incident_type": "tag_removal",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Noticed subject spending extended time at jewelry counter dept 18. Upon floor check found watch missing from display. No transaction on record. Outcome: Under investigation. Camera footage requested.",
+    "metadata": {
+      "report_id": "INC0063",
+      "date": "2024-06-14",
+      "time": "12:53",
+      "zone": "accessories",
+      "zone_alias": "accessories area",
+      "department": 18,
+      "shift": "non_apparel",
+      "lp_associate": "A003",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject spent approx 6 mins at acc wall near dept 18. Selected several items and placed directly into personal shopping bag without browsing further. Exited main entrance without purchasing. Wearing grey hoodie, black jeans. Outcome: Under review. Camera footage requested for time window.",
+    "metadata": {
+      "report_id": "INC0064",
+      "date": "2024-03-22",
+      "time": "17:04",
+      "zone": "accessories",
+      "zone_alias": "accessories wall",
+      "department": 18,
+      "shift": "jewelry",
+      "lp_associate": "A006",
+      "incident_type": "concealment",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject concealed makeup palette from beauty dept 87 inside jacket pocket while browsing fragrance section. Exited without purchase. Outcome: Subject fled before approach. Description recorded for future reference.",
+    "metadata": {
+      "report_id": "INC0065",
+      "date": "2024-02-16",
+      "time": "12:02",
+      "zone": "beauty",
+      "zone_alias": "beauty section",
+      "department": 87,
+      "shift": "markdowns",
+      "lp_associate": "A005",
+      "incident_type": "other",
+      "source": "incidents"
+    }
+  },
+  {
+    "text": "Incident: Subject took coat from womens dept 5 into fitting room. Returned with fewer items than taken in. One item unaccounted for. Outcome: Subject fled before approach. Description recorded for future reference.",
+    "metadata": {
+      "report_id": "INC0066",
+      "date": "2024-10-23",
+      "time": "19:32",
+      "zone": "womens",
+      "zone_alias": "womens",
+      "department": 5,
+      "shift": "markdowns",
+      "lp_associate": "A004",
+      "incident_type": "refund_abuse",
+      "source": "incidents"
+    }
+  }
+]
