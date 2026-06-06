@@ -88,7 +88,6 @@ def embed_chunks(chunks, task_type="RETRIEVAL_DOCUMENT"):
 def embed_query(query_text):
     """
     Embeds a single search query.
-    Uses RETRIEVAL_QUERY task type — optimized for queries, not documents.
     Called by search.py when an LP manager asks a question.
     """
     client   = get_client()
@@ -103,28 +102,3 @@ def embed_query(query_text):
     return response.embeddings[0].values
 
 
-# ── Test ───────────────────────────────────────────────────────────────────────
-if __name__ == "__main__":
-    print("Testing embed.py with 2 sample chunks...\n")
-
-    sample_chunks = [
-        {
-            "text": "Incident: Subject concealed scarves from accessories wall. Outcome: Subject fled before approach.",
-            "metadata": {"report_id": "TEST001", "zone": "accessories"}
-        },
-        {
-            "text": "Crime Report: Organized retail crime activity increased in Q1 targeting accessories and beauty departments.",
-            "metadata": {"source": "crime_reports", "quarter": "Q1"}
-        },
-    ]
-
-    vectors = embed_chunks(sample_chunks)
-
-    print(f"\n✓ Got {len(vectors)} vectors")
-    print(f"✓ Each vector has {len(vectors[0])} dimensions")
-    print(f"✓ First 5 values of vector 1: {vectors[0][:5]}")
-
-    print("\nTesting embed_query...")
-    q_vector = embed_query("incidents near the accessories wall")
-    print(f"✓ Query vector has {len(q_vector)} dimensions")
-    print("\nembed.py working correctly.")

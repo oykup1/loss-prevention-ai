@@ -5,7 +5,6 @@ Retrieves relevant chunks from FAISS indexes given a natural language query.
 Called by the agent layer to find relevant incident reports or crime data.
 
 This file ONLY retrieves — it does not generate answers.
-Answer synthesis happens in the agent layer using Gemini.
 
 Usage:
     from retrieval.search import search
@@ -116,19 +115,3 @@ def search_both(question, k=3):
     }
 
 
-# ── Quick test ─────────────────────────────────────────────────────────────────
-if __name__ == "__main__":
-    query = "suspicious activity near the accessories wall"
-    print(f"\nQuery: '{query}'")
-    print(f"Searching incidents index...\n")
-
-    results = search(query, index_name="incidents", k=3)
-
-    for i, r in enumerate(results, 1):
-        print(f"Result {i} — score: {r['score']}")
-        print(f"  Zone:      {r['metadata'].get('zone')}")
-        print(f"  Date:      {r['metadata'].get('date')}")
-        print(f"  Shift:     {r['metadata'].get('shift')}")
-        print(f"  Type:      {r['metadata'].get('incident_type')}")
-        print(f"  Text:      {r['text'][:120]}...")
-        print()

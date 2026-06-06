@@ -42,15 +42,3 @@ def load_crime_reports(folder_path):
     return chunks
 
 
-if __name__ == "__main__":
-    base = os.path.join(os.path.dirname(__file__), "..", "data")
-    incidents = load_incidents(os.path.join(base, "incidents.jsonl"))
-    crimes    = load_crime_reports(os.path.join(base, "crime_reports"))
-    print(f"Loaded {len(incidents)} incident chunks")
-    print(f"Loaded {len(crimes)} crime report chunks")
-    print(f"\nSample incident chunk:")
-    print(f"  text: {incidents[0]['text'][:80]}...")
-    print(f"  metadata: {incidents[0]['metadata']}")
-    print(f"\nSample crime chunk:")
-    print(f"  text: {crimes[0]['text'][:80]}...")
-    print(f"  metadata: {crimes[0]['metadata']}")
